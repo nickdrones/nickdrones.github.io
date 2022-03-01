@@ -52,6 +52,38 @@
     <!-- Main stylesheet and color file-->
     <link href="assets/css/style.css" rel="stylesheet">
     <link id="color-scheme" href="assets/css/colors/default.css" rel="stylesheet">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+      <style>
+      .fa {
+        padding: 20px;
+        font-size: 30px;
+        width: 80px;
+        text-align: center;
+        text-decoration: none;
+        margin: 5px 2px;
+      }
+      
+      .fa:hover {
+          opacity: 0.7;
+      }
+      
+      .fa-twitch {
+        background: #6441A5;
+        color: white;
+      }
+      
+      .fa-youtube {
+        background: #bb0000;
+        color: white;
+      }
+      
+      .fa-instagram {
+        background: #125688;
+        color: white;
+      }
+      
+      </style>
   </head>
   <body data-spy="scroll" data-target=".onpage-navigation" data-offset="60">
     <main>
@@ -168,6 +200,46 @@
             </div>
           </div>
         </section>
+        <section class="module bg-dark-60" data-background="assets/images/section-3.jpg">
+          <div class="container">
+            <div class="row">
+              <div class="col-sm-6 col-sm-offset-3">
+                <h2 class="module-title font-alt">Scoreboard</h2>
+                <div class="module-subtitle font-serif"></div>
+              </div>
+            </div>
+            <div class="row multi-columns-row">
+              <div class="col-sm-6 col-md-3 col-lg-3">
+                <div class="count-item mb-sm-40">
+                  <div class="count-icon"><span class="icon-map"></span></div>
+                  <h3 class="count-to font-alt" data-countto="13"></h3>
+                  <h5 class="count-title font-serif">Events Covered</h5>
+                </div>
+              </div>
+              <div class="col-sm-6 col-md-3 col-lg-3">
+                <div class="count-item mb-sm-40">
+                  <div class="count-icon"><span class="icon-camera"></span></div>
+                  <h3 class="count-to font-alt" data-countto="11225"></h3>
+                  <h5 class="count-title font-serif">Minutes of Raw Footage</h5>
+                </div>
+              </div>
+              <div class="col-sm-6 col-md-3 col-lg-3">
+                <div class="count-item mb-sm-40">
+                  <div class="count-icon"><span class="icon-presentation"></span></div>
+                  <h3 class="count-to font-alt" data-countto="3"></h3>
+                  <h5 class="count-title font-serif">Consultation Provided</h5>
+                </div>
+              </div>
+              <div class="col-sm-6 col-md-3 col-lg-3">
+                <div class="count-item mb-sm-40">
+                  <div class="count-icon"><span class="icon-lifesaver"></span></div>
+                  <h3 class="count-to font-alt" data-countto="279"></h3>
+                  <h5 class="count-title font-serif">Old Media Restored</h5>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
         <section class="module bg-dark-60" data-background="assets/images/section-6.jpg">
           <div class="container">
             <div class="row">
@@ -222,7 +294,7 @@
                   <h3 class="work-title">Coming Soon!</h3>
                   <div class="work-descr">Page not completed yet</div>
                 </div></a></li>
-            <li class="work-item marketing photography"><a href="pcomingsoon.html">
+            <li class="work-item marketing photography"><a href="comingsoon.html">
                 <div class="work-image"><img src="assets/images/work-4.jpg" alt="Portfolio Item"/></div>
                 <div class="work-caption font-alt">
                   <h3 class="work-title">Coming Soon!</h3>
@@ -258,78 +330,84 @@
           </div>
         </section>
         <hr class="divider-w">
-        <section class="module" id="team">
+        
+        <section class="module" id="pricing">
           <div class="container">
             <div class="row">
               <div class="col-sm-6 col-sm-offset-3">
-                <h2 class="module-title font-alt">Meet Our Team</h2>
-                <div class="module-subtitle font-serif">Each member of Super35 Media brings valuable skills to the field and is ready to bring their A-game to every production</div>
+                <h2 class="module-title font-alt">Our Prices</h2>
+                <div class="module-subtitle font-serif">All prices subject to review based on project, bulk discounts available</div>
               </div>
             </div>
-            <div class="row">
-              <div class="mb-sm-20 wow fadeInUp col-sm-6 col-md-3" onclick="wow fadeInUp">
-                <div class="team-item">
-                  <div class="team-image"><img src="assets/images/team-1.jpg" alt="Member Photo"/>
-                    <div class="team-detail">
-                      <h5 class="font-alt">Hello!</h5>
-                      <p class="font-serif">I have been involved in amateur video production since 2014 and have been getting more experience creating high quality videos on a shoestring budget</p>
-                      <div class="team-social"><a href="#"><i class="fa fa-facebook"></i></a><a href="#"><i class="fa fa-twitter"></i></a><a href="#"><i class="fa fa-dribbble"></i></a><a href="#"><i class="fa fa-skype"></i></a></div>
-                    </div>
-                  </div>
-                  <div class="team-descr font-alt">
-                    <div class="team-name">Nicholas Belbas</div>
-                    <div class="team-role">Founder</div>
-                  </div>
+            <div class="row multi-columns-row">
+              <div class="col-sm-6 col-md-3 col-lg-3">
+                <div class="price-table font-alt">
+                  <h4>Media Archival</h4>
+                  <div class="borderline"></div>
+                  <p class="price"><span>$</span>10 <span>per item</span>
+                  </p>
+                  <ul class="price-details">
+                    <li><b>Digital Conversion of:</b></li>
+                    <li>VHS & VHS-C</li>
+                    <li>8mm & MiniDV</li>
+                    <li>DVD, CD, & Cassette</li>
+                    <li><b>Digital File Download</b></li>
+                    <li><span>Restoring / Cleanup</span></li>
+                  <!--</ul><a class="btn btn-d btn-round" href="#">Sign Up</a> -->
                 </div>
               </div>
-              <div class="mb-sm-20 wow fadeInUp col-sm-6 col-md-3" onclick="wow fadeInUp">
-                <div class="team-item">
-                  <div class="team-image"><img src="assets/images/team-2.jpg" alt="Member Photo"/>
-                    <div class="team-detail">
-                      <h5 class="font-alt">Good day</h5>
-                      <p class="font-serif">Lorem ipsum dolor sit amet, consectetur adipiscing elit lacus, a&amp;nbsp;iaculis diam.</p>
-                      <div class="team-social"><a href="#"><i class="fa fa-facebook"></i></a><a href="#"><i class="fa fa-twitter"></i></a><a href="#"><i class="fa fa-dribbble"></i></a><a href="#"><i class="fa fa-skype"></i></a></div>
-                    </div>
-                  </div>
-                  <div class="team-descr font-alt">
-                    <div class="team-name">Andy River</div>
-                    <div class="team-role">Creative director</div>
-                  </div>
+              <div class="col-sm-6 col-md-3 col-lg-3">
+                <div class="price-table font-alt">
+                  <h4>Media Restoration</h4>
+                  <div class="borderline"></div>
+                  <p class="price"><span>$</span>15 <span>per item</span>
+                  </p>
+                  <ul class="price-details">
+                    <li><b>Digital Conversion of:</b></li>
+                    <li>VHS & VHS-C</li>
+                    <li>8mm & MiniDV</li>
+                    <li>DVD, CD, & Cassette</li>
+                    <li><b>Digital File Download</b></li>
+                    <li><b>Restoring / Cleanup</b></li>
+                  <!--</ul><a class="btn btn-d btn-round" href="#">Sign Up</a> -->
                 </div>
               </div>
-              <div class="mb-sm-20 wow fadeInUp col-sm-6 col-md-3" onclick="wow fadeInUp">
-                <div class="team-item">
-                  <div class="team-image"><img src="assets/images/team-3.jpg" alt="Member Photo"/>
-                    <div class="team-detail">
-                      <h5 class="font-alt">Hello</h5>
-                      <p class="font-serif">Lorem ipsum dolor sit amet, consectetur adipiscing elit lacus, a&amp;nbsp;iaculis diam.</p>
-                      <div class="team-social"><a href="#"><i class="fa fa-facebook"></i></a><a href="#"><i class="fa fa-twitter"></i></a><a href="#"><i class="fa fa-dribbble"></i></a><a href="#"><i class="fa fa-skype"></i></a></div>
-                    </div>
-                  </div>
-                  <div class="team-descr font-alt">
-                    <div class="team-name">Adele Snow</div>
-                    <div class="team-role">Account manager</div>
-                  </div>
+              <div class="col-sm-6 col-md-3 col-lg-3">
+                <div class="price-table font-alt best">
+                  <h4>On-Location Shoots & Live Streams</h4>
+                  <p class="small">Weekends and Evenings Only</p>
+                  <div class="borderline"></div>
+                  <p class="price"><span><b>CONTACT US</b></span>
+                  </p>
+                  <ul class="price-details">
+                    <li>Negotiable Pricing</li>
+                    <li>Custom Setup to Match Needs</li>
+                    <li>Up to Three Camera Operators</li>
+                    <li>No Minimum Venue Infrastructure (except power)</li>
+                    <li><span>Raw Footage Delivery</span></li>
+                  <!--</ul><a class="btn btn-d btn-round" href="#">Sign Up</a> -->
                 </div>
               </div>
-              <div class="mb-sm-20 wow fadeInUp col-sm-6 col-md-3" onclick="wow fadeInUp">
-                <div class="team-item">
-                  <div class="team-image"><img src="assets/images/team-4.jpg" alt="Member Photo"/>
-                    <div class="team-detail">
-                      <h5 class="font-alt">Yes, it's me</h5>
-                      <p class="font-serif">Lorem ipsum dolor sit amet, consectetur adipiscing elit lacus, a&amp;nbsp;iaculis diam.</p>
-                      <div class="team-social"><a href="#"><i class="fa fa-facebook"></i></a><a href="#"><i class="fa fa-twitter"></i></a><a href="#"><i class="fa fa-dribbble"></i></a><a href="#"><i class="fa fa-skype"></i></a></div>
-                    </div>
-                  </div>
-                  <div class="team-descr font-alt">
-                    <div class="team-name">Dylan Woods</div>
-                    <div class="team-role">Developer</div>
-                  </div>
+              <div class="col-sm-6 col-md-3 col-lg-3">
+                <div class="price-table font-alt">
+                  <h4>Specialty Shoots</h4>
+                  <p class="small">Weekends and Evenings Only</p>
+                  <div class="borderline"></div>
+                  <p class="price"><span><b>CONTACT US</b></span>
+                  </p>
+                  <ul class="price-details">
+                    <li>Multi-Room Streams</li>
+                    <li>Car-Mounted Cameras</li>
+                    <li>Drones</li>
+                    <li>Wide Array of Lenses</li>
+                    <li>Raw Footage Delivery</li>
+                  <!--</ul><a class="btn btn-d btn-round" href="#">Sign Up</a> -->
                 </div>
               </div>
             </div>
           </div>
         </section>
+        
         <!--
         <section class="module bg-dark-60 pt-0 pb-0 parallax-bg testimonial" data-background="assets/images/testimonial_bg.jpg">
           <div class="testimonials-slider pt-140 pb-140">
@@ -444,22 +522,25 @@
           </div>
         </section>
         <hr class="divider-d">
-        <footer class="footer bg-dark">
-          <div class="container">
-            <div class="row">
-              <div class="col-sm-6">
-                <p class="copyright font-alt">&copy; 2021&nbsp;<a href="index.html">Super35 Media</a>, All Rights Reserved</p>
-              </div>
-              <div class="col-sm-6">
-                <div class="footer-social-links"><a href="#"><i class="fa fa-facebook"></i></a><a href="#"><i class="fa fa-twitter"></i></a><a href="#"><i class="fa fa-dribbble"></i></a><a href="#"><i class="fa fa-skype"></i></a>
-                </div>
-              </div>
-            </div>
-          </div>
-        </footer>
+        
       </div>
       <div class="scroll-up"><a href="#totop"><i class="fa fa-angle-double-up"></i></a></div>
       -->
+      <footer class="footer bg-dark">
+        <div class="container">
+          <div class="row">
+            <div class="col-sm-6">
+              <p class="copyright font-alt">&copy; 2022&nbsp;<a href="index.html">Super35 Media</a>, All Rights Reserved</p>
+            </div>
+            
+            <!-- Add font awesome icons -->
+            <a href="https://www.twitch.tv/super35media" class="fa fa-twitch"></a>
+            <a href="https://www.youtube.com/channel/UCv9O47osH4-FeVEtNXmTcYA" class="fa fa-youtube"></a>
+            <a href="https://www.instagram.com/super35media/" class="fa fa-instagram"></a>
+            </div>
+          </div>
+        </div>
+      </footer>
     </main>
     <!--  
     JavaScripts
@@ -479,7 +560,5 @@
     <script src="assets/js/plugins.js"></script>
     <script src="assets/js/main.js"></script>
 
-    <!-- Tracking code to view visits to webpage, stats available at https://clustrmaps.com/site/1bmn0 -->
-    <script type="text/javascript" id="clustrmaps" style="display: none;" src="//clustrmaps.com/map_v2.js?d=C9XCbUXh0t_Fsc4q526wnqtoj0i99QXOmOpOEDErL5g&cl=ffffff&w=a"></script>
   </body>
 </html>
