@@ -97,40 +97,30 @@
             <ul class="nav navbar-nav navbar-right">
               <li><a href="portfolio.html">Portfolio</a></li>
               <li><a href="comingsoon.html">Contact Us</a></li>
+              <li><a href="live.html">Live Now</a></li>
             </ul>
           </div>
         </div>
       </nav>
       <div class="main">
-        <section class="module bg-dark-30 about-page-header" data-background="assets/images/header-banner-black.jpg">
-          <div class="container">
-            <div class="row">
-              <div class="col-sm-6 col-sm-offset-3">
-                <center><h2 class="module-title font-alt">Live Now</h2></center>
-                <!--<center><h2 class="font-alt mb-30 titan-title-size-1">Organized from Newest to Oldest</h2></center> -->
-              </div>
-            </div>
-          </div>
-        </section>
         
-        <section class="module">
-          <div id="twitch-embed"></div>
 
-    <!-- Load the Twitch embed JavaScript file -->
-    <script src="https://embed.twitch.tv/embed/v1.js"></script>
+        <div id="twitch-embed"></div>
 
-    <!-- Create a Twitch.Embed object that will render within the "twitch-embed" element -->
-    <script type="text/javascript">
-      new Twitch.Embed("twitch-embed", {
-        width: 1280,
-        height: 720,
-        channel: "super35media",
-        // Only needed if this page is going to be embedded on other websites
-        parent: ["super35.space"]
-      });
-    </script>
-          
-        </section>
+        <!-- Load the Twitch embed JavaScript file -->
+        <script src="https://embed.twitch.tv/embed/v1.js"></script>
+
+        <!-- Create a Twitch.Embed object that will render within the "twitch-embed" element -->
+        <script type="text/javascript">
+          new Twitch.Embed("twitch-embed", {
+            width: 1280,
+            height: 720,
+            channel: "super35media",
+            // Only needed if this page is going to be embedded on other websites
+            parent: ["super35.space"]
+          });
+        </script>
+      
         
 
 
@@ -138,7 +128,6 @@
 
 
 
-        <hr class="divider-d">
         <footer class="footer bg-dark">
           <div class="container">
             <div class="row">
